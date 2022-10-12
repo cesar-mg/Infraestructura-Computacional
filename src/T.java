@@ -82,7 +82,7 @@ public class T extends Thread{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			System.out.println("Finalizó el proceso: " +id);
+			System.out.println("FinalizÃ³ el proceso: " +id);
 		}else {
 			while (true) {
 				String msg;
@@ -97,7 +97,7 @@ public class T extends Thread{
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				System.out.println("Mensaje pasó por el proceso "+id+": "+msg);
+				System.out.println("Mensaje pasÃ³ por el proceso "+id+": "+msg);
 				if(tipoEnvio)
 					buzonEnvio.almacenarActivo(msg,this);
 				else
@@ -114,7 +114,7 @@ public class T extends Thread{
 				e.printStackTrace();
 			}
 			
-			System.out.println("Finalizó el proceso: " +id);
+			System.out.println("FinalizÃ³ el proceso: " +id);
 		}
 	}
 	
